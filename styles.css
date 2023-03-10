@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #F5EA5A;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #FFA3FD 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px auto;
+}
+
+a {
+    color: #191825;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #191825;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-image: linear-gradient(#E384FF, #865DFF);
+    padding: 50px 0 20px;
+    
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.DBMS {
+    float: left;
+    margin-right: 20px;    
+}
+
+.coding {
+    float: right;
+    margin-left: 20px;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    background: #191825;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+.btn:hover {
+    background: #E384FF;
+    background-image: -webkit-linear-gradient(top, #E384FF, #865DFF);
+    background-image: -moz-linear-gradient(top, #E384FF, #865DFF);
+    background-image: -ms-linear-gradient(top, #E384FF, #865DFF);
+    background-image: -o-linear-gradient(top, #E384FF, #865DFF);
+    background-image: linear-gradient(to bottom, #E384FF, #865DFF);
+    text-decoration: none;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 50px auto 50px;
+}
+
+.copywrite {
+    color: white;
+    font-size: 0.75 rem;
+    padding: 20px 0;
+}
